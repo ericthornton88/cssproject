@@ -1,0 +1,297 @@
+/****************************************
+  
+*****************************************/
+
+.content-container {
+	border-radius: 1px;
+	box-shadow: 0px 0px 10px -5px #000;
+	background-color: white;
+	margin: 0 auto;
+}
+
+
+
+/****************************************
+  TOP PORTION
+*****************************************/
+
+.hero {
+	left: 0;
+	right: 0;
+	min-height: 400px;
+	background: -webkit-radial-gradient(rgba(5,132,148,0.4), rgba(5,132,148,1)), url("../images/background.jpg");
+	background-size: cover;
+}
+
+.hero > div {
+	width: 960px;
+	margin: 0 auto;
+}
+
+
+
+
+.banner {
+	margin: 0 auto;
+	position: relative;
+	min-height: 350px;
+	text-align: center;
+}
+
+.banner > div {
+	left: 0;
+	right: 0;
+	bottom: 30px;
+	position: absolute;
+}
+
+.banner > div p {
+	color: white;
+	margin-top: 25px;
+}
+
+.banner > div p:first-child {
+	font-family: Arial;
+	font-size: 30pt;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+strong {
+	text-decoration: bold;
+}
+
+header {
+	min-height: 150px;
+	position: relative;
+	margin: 0 auto;
+}
+
+input {
+	background-color: transparent;
+	border: 1px solid rgba(250, 250, 250, .5);
+	padding: 0;
+	padding-top: 5px;
+	padding-left: 2px;
+}
+
+input::-webkit-input-placeholder {
+	font-weight: 100;
+	color: rgba(250, 250, 250, .5);
+	font-size: 15px;
+}
+
+form > button {
+	background-color: rgb(234, 80, 26);
+	color: white;
+	padding-bottom: 3px;
+	padding-top: 5px;
+	border-radius: 2px;
+	border: 0px solid rgb(234, 80, 26);
+}
+
+header > form {
+	float: right;
+	margin-top: 10px;
+}
+
+nav {
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	border-bottom: 1px rgba(240, 240, 240, .7) solid;
+	border-top: 1px rgba(240, 240, 240, .7) solid;
+}
+
+nav > a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 20px;
+}
+
+.logo {
+	font-family: lobster;
+	color: white;
+	display: inline-block;
+	float: left;
+	margin-top: 3px;
+	font-size: 55px;
+}
+
+
+/************************************************************
+************************************************************
+					BOTTOM PORTION
+************************************************************
+************************************************************/
+
+.primary {
+	background-color: #D7E1E7;
+	left: 0; 
+	right: 0;
+	padding-bottom: 30px;
+}
+
+.primary > div {
+	padding: 10px;
+	margin: auto;
+	width: 960px;
+}
+
+.primary-boxes {
+	position: relative;
+	text-align: center;
+}
+
+.primary-boxes > * + * {
+	margin-left: 10px;
+}
+
+.primary-box { 
+	width: 280px;
+	margin-top: -30px;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.primary-boxes > div:first-child {
+	border-top: rgb(234, 80, 26) solid 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.primary-boxes > div:nth-child(2) {
+	border-top: rgb(142, 207, 65) solid 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.primary-boxes > div:nth-child(3) {
+	border-top: rgb(7, 146, 211) solid 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.primary-box button {
+	background-color: white;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+
+.primary-boxes > div:first-child > button {
+	border:1px solid rgb(234, 80, 26);
+	color: rgb(234, 80, 26);
+	
+}
+
+.primary-boxes > div:nth-child(2) > button {
+	border:1px solid rgb(142, 207, 65);
+	color: rgb(142, 207, 65);
+}
+
+.primary-boxes > div:nth-child(3) > button {
+	border:1px solid rgb(7, 146, 211); 
+	color: rgb(7, 146, 211);
+}
+
+
+
+/************************************************************
+************************************************************
+					PROFILES
+************************************************************
+************************************************************/
+
+
+.profiles-container {
+	position: relative;
+	padding-bottom: 0px;
+	margin-top: 10px;
+	overflow: hidden;
+}
+
+aside {
+	width: 390px;
+	float: left;
+}
+
+main {
+	margin-left: 420px; /* Offsets aside width */
+}
+
+
+
+
+.list-media-container {
+	margin: 10px;
+	overflow: hidden;
+}
+
+.list-media-container img {
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+	float: left;
+}
+
+.list-media-container > div {
+	margin-left: 80px;
+}
+
+.tile-media-container {
+	width: 150px;
+	float: left;
+	margin: 10px;
+	vertical-align: top;
+	background-color: rgb(142, 207, 65); /**/
+	padding: 0;
+	bottom: 10px;
+}
+
+.list-dog-name {
+	color: #3FA0D8;
+	font-size: 20px;
+	font-weight: 100;
+	margin-bottom: 5px;
+}
+
+.tile-picture {
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.dog1 {
+	background-image: url("../images/dog1.png");
+}
+
+.dog2 {
+	background-image: url("../images/dog2.png");
+}
+
+.dog3 {
+	background-image: url("../images/dog3.png");
+}
+
+.tile-media-container span {
+	font-weight: 100;
+	background-color: rgb(142, 207, 65);
+	display: block;
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+}
+
+.tile-description{
+	background-color: rgb(227, 239, 214);
+	padding-left: 3px;
+	padding-top: 10px;
+}
+
+

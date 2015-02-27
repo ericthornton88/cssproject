@@ -1,0 +1,193 @@
+.top-container {
+	background-color: #11AABA;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.hero {
+	background-color: lightblue;
+	margin: 0 auto;
+	width: 960px;
+	position: relative;
+	min-height: 300px;
+}
+
+.hero-title {
+	background-color: magenta;
+	left: 0;
+	right: 0;
+	bottom: 30px;
+	position: absolute;
+	
+}
+
+.hero-title p {
+	color: white;
+	margin-top: 25px;
+}
+
+.hero-title > :first-child {
+	font-size: 40px;
+	margin-top: 5px;
+	margin-bottom: 0;
+}
+
+header {
+	background-color: orange;
+	min-height: 200px;
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header > form {
+	float: right;
+	margin-top: 10px;
+}
+
+nav {
+	background-color: green;
+	color: white;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+}
+
+nav > a {
+	
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 20px 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+
+.title {
+	text-decoration: underline;
+	background-color: red;
+	color: white;
+	display: inline-block;
+	float: left;
+	margin: 3px;
+}
+
+.bottom-container {
+	background-color: purple;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+
+.bottom-hero {
+	background-color: green;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 160px;
+}
+
+.bottom-hero-box {
+	background-color: lime;
+	width: 300px;
+	margin: 0 auto;
+	margin-top: -20px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.profile-container {
+	background-color: tan;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 500px;
+	padding-bottom: 10px;
+}
+
+.profile-list-container {
+	background-color: lime;
+	min-height: 375px;
+	left: 0;
+	float: left;
+
+}
+
+.profile-full-container {
+	background-color: blue;
+	width: 550px;
+	float: left;
+	right: 0;
+}
+
+.list-media-container {
+	background-color: red;
+	margin: 10px;
+	overflow: hidden;
+	width: 390px;
+}
+
+.list-media-image {
+	background-size: cover;
+	height: 70px;
+	width: 70px;
+	float: left;
+}
+
+.list-media-content {
+	background-color: yellow;
+	margin-left: 70px;
+	text-align: left;
+}
+
+.full-media-container {
+	background-color: yellow;
+	width: 150px;
+	float: left;
+	margin: 10px;
+}
+
+.full-media-container::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.full-media-image {
+	background-size: cover;
+	height: 150px;
+	width: 150px;
+}
+
+.full-media-content {
+	text-align: left;
+}
+
+.name-box {
+	font-weight: bold;
+	background-color: yellow;
+	display: block;
+	border-bottom: 1px solid black;
+}
+
+.dog1 {
+	background-image: url("../images/dog1.png");
+}
+
+.dog2 {
+	background-image: url("../images/dog2.png");
+}
+
+.dog3 {
+	background-image: url("../images/dog3.png");
+}
+
+
