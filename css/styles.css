@@ -159,22 +159,21 @@ nav > a {
 	margin-bottom: 10px;
 }
 
-.primary-boxes > div:first-child {
-	border-top: rgb(234, 80, 26) solid 3px;
+.primary-boxes > div {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.primary-boxes > div:first-child {
+	border-top: rgb(234, 80, 26) solid 3px;
 }
 
 .primary-boxes > div:nth-child(2) {
 	border-top: rgb(142, 207, 65) solid 3px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 .primary-boxes > div:nth-child(3) {
 	border-top: rgb(7, 146, 211) solid 3px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 .primary-box button {
